@@ -1,7 +1,7 @@
 import sys
 from PIL import Image
 
-images = [Image.open(x) for x in ['tree.png', 'water.png', 'mountain.png', 'desert.png', 'glacier.png']]
+images = [Image.open(x) for x in ['tree.png', 'water.png', 'mountain.png', 'desert.png', 'glacier.png', 'house.png']]
 widths, heights = zip(*(i.size for i in images))
 
 total_width = sum(widths)
