@@ -54,6 +54,8 @@ class TileMap():
                     # Move to next tile in current row
                 elif tile == '3':
                     tiles.append(Tile('desert.png', x * self.tile_size, y * self.tile_size, self.spritesheet))
+                elif tile == '4':
+                    tiles.append(Tile('glacier.png', x * self.tile_size, y * self.tile_size, self.spritesheet))
                 x += 1
 
             # Move to next row
